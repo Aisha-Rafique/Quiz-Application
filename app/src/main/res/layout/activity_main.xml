@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVASCRIPT QUIZ"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Quiz"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="32sp"
+        android:onClick="StartQuiz"
+        android:textColor="#fff"
+        android:background="#80363636"
+        android:paddingHorizontal="10dp"/>
+
+</LinearLayout>

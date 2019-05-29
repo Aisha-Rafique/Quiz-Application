@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quiz Master</string>
+    <string name="question_1">Which method calls a function for each element in the array?</string>
+    <string name="question_2">Which function combines two strings and returns a new string?</string>
+    <string name="question_3">How do you create a function in JavaScript?</string>
+    <string name="question_4">How to write an IF statement in JavaScript?</string>
+    <string name="question_5">How does a WHILE loop start?</string>
+    <string name="question_6">How can you add a comment in a JavaScript?</string>
+    <string name="question_7">How do you round the number 7.25?</string>
+    <string name="question_8">How can you detect the client\'s browser name?</string>
+    <string name="question_9">Which event occurs when the user clicks on an HTML element?</string>
+</resources>

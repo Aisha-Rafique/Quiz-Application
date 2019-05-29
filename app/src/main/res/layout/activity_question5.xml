@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question5"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question_5"
+        android:textSize="28sp"
+        android:textColor="#ffffff "
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="while (condition)"
+            android:textColor="#ffffff "
+            android:id="@+id/q5radio1"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:background="#AAA4DA"
+            android:textStyle="bold"
+            android:padding="10dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="while ()"
+            android:textColor="#ffffff "
+            android:id="@+id/q5radio2"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:background="#AAA4DA"
+            android:textStyle="bold"
+            android:padding="10dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="while (condition;iteration)"
+            android:textColor="#ffffff "
+            android:id="@+id/q5radio3"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:background="#AAA4DA"
+            android:textStyle="bold"
+            android:padding="10dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="None of the above"
+            android:textColor="#ffffff "
+            android:id="@+id/q5radio4"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:background="#AAA4DA"
+            android:textStyle="bold"
+            android:padding="10dp" />
+    </RadioGroup>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="32sp"
+        android:onClick="question6"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:background="#80363636"
+        android:paddingHorizontal="10dp"
+        />
+
+</LinearLayout>
